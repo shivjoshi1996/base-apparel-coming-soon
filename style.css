@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff9f9;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    padding-left: 5%;
+}
+
+.hero-image  {
+    height: 60vw;
+    overflow: hidden;
+    background-image: url(./images/hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;   
+}
+
+.main-content span {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);;
+}
+
+.main-content {
+    text-align: center;
+}
+.main-content h1 {
+    color: hsl(0, 6%, 24%);
+    padding: 75px 10px 30px 10px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+
+.main-content p {
+    padding: 0px 10vw 30px 10vw;
+    font-size: 16px;
+    text-transform: none;
+    color: hsl(0, 36%, 70%);
+    line-height: 25px;
+}
+
+form {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.email-field {
+    width: 100%;
+    position: relative;
+}
+
+input[type=text] {
+    border-radius: 60px;
+    width: 100%;
+    height: 60px;
+    border: solid 1px;
+    border-color: hsl(0, 36%, 70%);
+  }
+
+  input::placeholder {
+    font-size: 16px;
+    color:hsl(0, 36%, 70%);
+    padding-left: 30px;
+  }
+
+  input[type=image] {
+      background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+      border-radius: 60px;
+      padding: 20px 35px 20px 35px;  
+      position: absolute;
+      top: 0;
+      right: 0;
+      -webkit-box-shadow: 0px 27px 49px -5px rgba(224,220,224,1);
+      -moz-box-shadow: 0px 27px 49px -5px rgba(224,220,224,1);
+      box-shadow: 0px 27px 49px -5px rgba(224,220,224,1);
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
