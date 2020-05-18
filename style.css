@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fff9f9;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -58,7 +57,7 @@ header img {
 }
 
 form {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -98,3 +97,39 @@ footer {
     text-align: center;
 }
 
+/* MEDIA QUERIES */ 
+
+@media (min-width: 800px) {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    .hero-image  {
+        order: 1;
+        width: 40vw;
+        height: 100vh;
+        background-image: url(./images/hero-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+    .desktop-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+    }
+    .main-content h1 {
+        text-align: left;
+        padding: 70px 0px 0px 8%;
+    }
+    .main-content p {
+        padding: 70px 55% 50px 8%;
+        text-align: left;
+    }
+    form {
+        width: 40%;
+    }
+  }
