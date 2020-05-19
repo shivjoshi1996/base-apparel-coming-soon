@@ -115,6 +115,7 @@ footer a {
 @media (min-width: 900px) {
     header img {
         padding-left: 10vw;
+        height: 50px;
     }
     .main-wrapper {
         display: flex;
